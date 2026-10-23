@@ -3,34 +3,360 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elizebeth — a small corner of the internet</title>
+  <title>Elizebeth Shaji · engineer, painter, hobby collector</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root{--ink:#292334;--muted:#756c7c;--pink:#f8dce5;--rose:#d95d82;--soft:#fff9fb;--lilac:#f0ecfa;--line:#eadde3}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--soft);color:var(--ink);font-family:Manrope,sans-serif}.wrap{width:min(960px,calc(100% - 36px));margin:auto}a{color:inherit;text-decoration:none}nav{height:80px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:800;letter-spacing:-.06em}.logo i{font:700 25px 'Playfair Display',serif;color:var(--rose)}.navlinks{display:flex;gap:22px;font-size:13px;font-weight:700}.navlinks a:hover{color:var(--rose)}.hero{min-height:555px;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;border-bottom:1px solid var(--line)}.eyebrow{color:var(--rose);font:500 11px 'DM Mono',monospace;letter-spacing:.1em;text-transform:uppercase}.eyebrow:before{content:'// ';color:#b38f9b}h1{font-size:clamp(52px,8vw,88px);line-height:.94;letter-spacing:-.08em;margin:17px 0 22px}h1 em{font-family:'Playfair Display',serif;color:var(--rose);font-weight:600}.hero p{max-width:490px;margin:0;color:var(--muted);font-size:16px;line-height:1.8}.hello-card{background:var(--ink);color:#fff;border-radius:22px;padding:28px;transform:rotate(2deg);box-shadow:10px 11px 0 var(--pink)}.hello-card h2{margin:16px 0 12px;font:600 29px/1.2 'Playfair Display',serif}.hello-card p{color:#d9d0df;font-size:13px;line-height:1.75}.little-list{margin-top:23px;padding-top:17px;border-top:1px solid #524a5a;font:11px/2 'DM Mono',monospace;color:#f5b8ca}.section{padding:88px 0}.section h2{font-size:clamp(34px,5vw,52px);letter-spacing:-.07em;line-height:1;margin:14px 0 36px}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:52px;align-items:start}.note{padding:25px;background:var(--lilac);border-radius:14px;font:600 21px/1.55 'Playfair Display',serif}.about-copy{color:var(--muted);font-size:17px;line-height:1.9}.about-copy p{margin-top:0}.about-copy strong{color:var(--rose)}.interests{background:#fff0f4;border-block:1px solid #f3dfe5}.interest-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.interest{background:var(--soft);padding:19px 16px;border:1px solid #f0dce3;border-radius:12px;min-height:142px}.interest span{font-size:25px}.interest h3{font-size:15px;letter-spacing:-.04em;margin:14px 0 6px}.interest p{font-size:12px;line-height:1.6;color:var(--muted);margin:0}.gallery-head{display:flex;justify-content:space-between;align-items:end;gap:20px}.gallery-head p{font-size:13px;color:var(--muted);margin:0 0 36px;max-width:270px}.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:205px 205px;gap:13px}.slot{display:flex;position:relative;align-items:center;justify-content:center;flex-direction:column;border:1.5px dashed #dcb7c5;border-radius:14px;background:#fff4f7;color:var(--rose);text-align:center;overflow:hidden}.slot:first-child{grid-row:span 2}.slot span{font-size:27px;z-index:1}.slot b{font-size:12px;margin:6px 0 3px;z-index:1}.slot small{font:10px 'DM Mono',monospace;color:#aa7a89;z-index:1}.slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}.now{display:grid;grid-template-columns:1fr 1fr;gap:13px}.now-box{border:1px solid var(--line);border-radius:12px;padding:23px}.now-box:nth-child(2){background:var(--ink);color:#fff;border-color:var(--ink)}.now-box h3{font-size:13px;margin:9px 0}.now-box p{margin:0;font-size:13px;color:var(--muted);line-height:1.7}.now-box:nth-child(2) p{color:#d8d0dc}footer{background:var(--ink);color:#fff;margin-top:40px;padding:52px 0 28px}.footer-top{display:flex;align-items:end;justify-content:space-between;gap:20px;padding-bottom:42px}.footer-top h2{margin:12px 0 0;font-size:clamp(34px,5vw,54px);line-height:1;letter-spacing:-.07em}.footer-top h2 em{font-family:'Playfair Display',serif;color:#f6adc2}.contact{border:1px solid #605667;border-radius:8px;padding:12px 15px;font:11px 'DM Mono',monospace}.contact:hover{background:#fff;color:var(--ink)}.bottom{border-top:1px solid #4e4554;padding-top:20px;color:#aaa2b1;font:10px 'DM Mono',monospace}@media(max-width:680px){.wrap{width:min(100% - 28px,960px)}.navlinks a:not(:last-child){display:none}.hero{grid-template-columns:1fr;padding:70px 0;gap:50px}.hello-card{max-width:310px;margin-left:auto}.about{grid-template-columns:1fr;gap:22px}.interest-grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:185px 145px 145px}.slot:first-child{grid-column:span 2;grid-row:auto}.gallery-head,.footer-top{display:block}.gallery-head p{margin:0 0 25px}.footer-top h2{margin-bottom:25px}.now{grid-template-columns:1fr}}
+    :root{--ink:#3b2232;--muted:#8a6f7e;--pink:#fcd9e5;--blush:#fff1f6;--rose:#e0628a;--berry:#c2416b;--soft:#fffafc;--line:#f4dbe5;
+      --s-paint:#fcd3e1;--s-sound:#f3e0f5;--s-sweat:#ffe2da;--s-tiny:#fff0dc;
+      --serif:'Fraunces',serif;--sans:'Inter',sans-serif;--mono:'JetBrains Mono',monospace}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}
+    body{margin:0;background:var(--soft) radial-gradient(60vw 50vw at 95% -10%,#ffe4ee,transparent 70%) no-repeat;color:var(--ink);font-family:var(--sans)}
+    .wrap{width:min(1000px,calc(100% - 36px));margin:auto}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}
+    em{font-family:var(--serif);font-style:italic;font-weight:500;color:var(--rose);letter-spacing:-.02em}
+    .eyebrow{color:var(--berry);font:500 11px var(--mono);letter-spacing:.1em;text-transform:uppercase}.eyebrow:before{content:'// ';color:#d9a3b6}
+    .section{padding:96px 0}.section h2{font-size:clamp(34px,5vw,54px);font-weight:800;letter-spacing:-.05em;line-height:1.02;margin:14px 0 14px}
+    .lede{color:var(--muted);font-size:15px;line-height:1.75;max-width:520px;margin:0 0 36px}
+
+    /* paint-stroke highlight that draws in on scroll */
+    .mark{background:linear-gradient(transparent 62%,var(--pink) 62%,var(--pink) 92%,transparent 92%) no-repeat 0 0/0% 100%;transition:background-size 1s .2s cubic-bezier(.2,.7,.2,1)}
+    .in .mark{background-size:100% 100%}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1)}.reveal.in{opacity:1;transform:none}
+
+    nav{height:80px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:800;letter-spacing:-.05em}.logo i{font:600 26px var(--serif);color:var(--rose)}
+    .navlinks{display:flex;gap:22px;font-size:13px;font-weight:600}.navlinks a:hover{color:var(--rose)}
+
+    /* 1 · intro + paint pad */
+    .hero{min-height:540px;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:48px}
+    h1{font-size:clamp(52px,8vw,86px);font-weight:800;line-height:.95;letter-spacing:-.055em;margin:17px 0 24px}h1 em{font-weight:400}
+    .hero p{max-width:480px;margin:0;color:var(--muted);font-size:17px;line-height:1.8}
+    .pad-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px;rotate:1.5deg;box-shadow:10px 11px 0 var(--pink)}
+    .pad-head{display:flex;justify-content:space-between;align-items:center;margin:2px 4px 12px}
+    .wash{border:1px solid var(--line);background:var(--blush);border-radius:99px;padding:6px 12px;font:10px var(--mono);cursor:pointer}.wash:hover{border-color:var(--rose);color:var(--berry)}
+    #pad{display:block;width:100%;height:290px;border-radius:12px;cursor:crosshair;touch-action:none;background:#fffdfb}
+    .swatches{display:flex;gap:8px;margin:14px 4px 4px;align-items:center}
+    .swatches button{width:24px;height:24px;border-radius:50%;border:2px solid #fff;background:var(--c);box-shadow:0 0 0 1px var(--line);cursor:pointer;transition:transform .2s}
+    .swatches button:hover{transform:scale(1.15)}.swatches button[aria-pressed=true]{box-shadow:0 0 0 2px var(--ink);transform:scale(1.15)}
+    .swatches span{margin-left:auto;font:10px var(--mono);color:var(--muted)}
+
+    /* 2 · things I make */
+    .tech{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;background:var(--berry);color:#fff;border-radius:14px;padding:20px 24px;margin-bottom:40px}
+    .tech p{margin:0;font-size:15px}.tech p b{color:#ffd6e3}
+    .links{display:flex;flex-wrap:wrap;gap:10px}.links a{border:1px solid rgba(255,255,255,.45);border-radius:8px;padding:10px 14px;font:11px var(--mono)}.links a:hover{background:#fff;color:var(--berry);border-color:#fff}
+    .gallery{columns:3 230px;column-gap:16px}.piece{break-inside:avoid;margin:0 0 22px}
+    .piece button{display:block;width:100%;padding:0;border:0;background:var(--blush);border-radius:12px;overflow:hidden;cursor:zoom-in}.piece button:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+    .piece img{display:block;width:100%;height:auto;transition:transform .5s}.piece button:hover img{transform:scale(1.03)}
+    .piece figcaption,.lightbox figcaption{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:10px 2px 0;font:italic 500 17px var(--serif)}
+    .piece small,.lightbox small{font:normal 10px var(--mono);letter-spacing:.04em;color:var(--muted);text-align:right}
+
+    .insta{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-top:12px;padding:18px 22px;border:1.5px dashed #e8b4c6;border-radius:14px;color:var(--muted);font-size:14px;transition:background .3s,border-color .3s}
+    .insta b{font:500 12px var(--mono);color:var(--berry)}.insta:hover{background:var(--blush);border-color:var(--rose)}
+
+    /* 3 · bookshelf */
+    .shelf-sec{background:var(--blush);border-block:1px solid var(--line)}
+    .shelf-wrap{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:end}
+    .shelf{display:flex;align-items:flex-end;gap:5px;padding:0 14px;border-bottom:14px solid #d79bb0;border-radius:0 0 4px 4px;min-height:270px;overflow-x:auto;scrollbar-width:none}
+    .spine{flex:0 0 auto;width:46px;height:var(--h);background:var(--c);color:var(--t,#fff);border:0;border-radius:4px 4px 1px 1px;cursor:pointer;writing-mode:vertical-rl;transform:rotate(180deg);font:600 11px/1.2 var(--sans);letter-spacing:.02em;padding:12px 6px;box-shadow:inset -5px 0 0 rgba(0,0,0,.12),inset 3px 0 0 rgba(255,255,255,.15);transition:translate .3s cubic-bezier(.2,.7,.2,1)}
+    .spine:hover{translate:0 -8px}.spine[aria-pressed=true]{translate:0 -22px}.spine.wide{width:58px}
+    .spine:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+    .note-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px;min-height:200px}
+    .note-card h3{margin:10px 0 2px;font:500 26px/1.15 var(--serif)}.note-card .by{font:11px var(--mono);color:var(--muted)}
+    .note-card p{color:var(--muted);font-size:14px;line-height:1.7;margin:14px 0 0}
+
+    /* 4 · hobby log */
+    .legend{display:flex;flex-wrap:wrap;gap:8px;font:10px var(--mono);margin-bottom:22px}.legend span{padding:5px 9px;border-radius:99px}
+    .board{position:relative;display:flex;flex-wrap:wrap;justify-content:center;gap:20px 18px;padding:42px 26px;border-radius:18px;background:#fff6f9 radial-gradient(#f3cfdc 1px,transparent 1px) 0 0/18px 18px;border:1px solid var(--line)}
+    .sticker{width:170px;perspective:900px;rotate:var(--r);translate:var(--dx,0) var(--dy,0);cursor:grab;touch-action:none;user-select:none;transition:rotate .5s,translate .5s cubic-bezier(.2,.7,.2,1),scale .2s}
+    .sticker.dragging{cursor:grabbing;scale:1.06;transition:scale .2s;z-index:5}
+    .flipper{display:grid;transform-style:preserve-3d;transition:transform .75s cubic-bezier(.3,1.25,.5,1)}.sticker.flipped .flipper{transform:rotateY(180deg)}
+    .face{grid-area:1/1;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px;background:var(--bg);padding:16px 16px 14px;box-shadow:0 2px 0 rgba(59,34,50,.06),0 10px 18px -12px rgba(59,34,50,.35)}
+    .face.back{transform:rotateY(180deg);position:relative;overflow:hidden;padding:0}
+    .face b{display:block;font-size:26px;line-height:1;margin-bottom:10px}.face h3{margin:0 0 4px;font-size:15px;font-weight:700;letter-spacing:-.02em}.face p{margin:0;font-size:12px;line-height:1.5;color:var(--muted)}
+    .paint{--bg:var(--s-paint)}.music{--bg:var(--s-sound)}.move{--bg:var(--s-sweat)}.hands{--bg:var(--s-tiny)}
+    .sticker.next{--bg:#fff}.sticker.next .face{border:1.5px dashed #e8b4c6}
+
+    /* the little 3D scenes on the back of each sticker */
+    .scene{position:absolute;inset:0;perspective:380px}.scene *{position:absolute}.scene i{display:block}
+    .sc-plane{left:8%;right:8%;top:30%;bottom:8%;background:#fffdfb;border-radius:6px;transform-origin:50% 100%;transform:rotateX(55deg);transform-style:preserve-3d;box-shadow:0 14px 18px -12px rgba(59,34,50,.45)}
+    .scene svg{inset:0;width:100%;height:100%;overflow:visible}
+    .ink{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;animation:ink var(--t,1.2s) var(--d,0s) linear forwards}
+    @keyframes ink{to{stroke-dashoffset:0}}
+    @keyframes rise{0%{opacity:0;transform:translate3d(0,0,0) scale(.6)}15%{opacity:1}100%{opacity:0;transform:translate3d(var(--sx,0),-70px,90px) scale(1.2) rotate(var(--rt,0deg))}}
+    /* watercolour: drops fall onto tilted paper and bloom */
+    .drop{width:9px;height:12px;left:var(--x);top:-14%;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:var(--c);animation:fall .5s var(--d) cubic-bezier(.5,0,1,1) forwards}
+    @keyframes fall{90%{opacity:1}100%{top:var(--y);opacity:0}}
+    .bloom{left:var(--x);top:var(--y);width:58%;aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:radial-gradient(circle,rgba(var(--c),.35) 0,rgba(var(--c),.28) 52%,rgba(var(--c),.5) 66%,transparent 71%);filter:blur(1.5px);scale:0;animation:bloom 1.3s var(--d) cubic-bezier(.2,.8,.3,1) forwards}
+    @keyframes bloom{to{scale:1}}
+    /* acrylics: a canvas on an easel swings round as strokes go on */
+    .easel{left:20%;top:10%;width:60%;height:66%;transform-style:preserve-3d;animation:easel 2.4s ease-in-out forwards}
+    @keyframes easel{from{transform:rotateY(-40deg) rotateX(12deg)}to{transform:rotateY(-10deg) rotateX(6deg)}}
+    .canvas{inset:0;background:#fff;border:3px solid #ead3c2;border-radius:3px;overflow:hidden;box-shadow:8px 10px 16px -8px rgba(59,34,50,.4)}
+    .leg{width:4px;height:34%;background:#c99a7e;top:96%;border-radius:2px;transform-origin:top}.leg.l{left:14%;rotate:12deg}.leg.r{right:14%;rotate:-12deg}
+    .strk{left:8%;width:84%;height:17%;top:var(--y);border-radius:30px;background:var(--c);transform-origin:left;transform:scaleX(0) rotate(var(--rot));animation:strk .5s var(--d) ease-out forwards}
+    @keyframes strk{to{transform:scaleX(1) rotate(var(--rot))}}
+    /* oil pastels: a stick stands up off the paper and scribbles */
+    .stick{width:7%;height:46%;translate:-50% -100%;border-radius:4px 4px 2px 2px;background:linear-gradient(90deg,#f7b898,#f4a27a 45%,#d9825c);transform-origin:50% 100%;transform:rotateX(-70deg) rotateY(18deg);animation:zig 1.3s .2s linear both}
+    @keyframes zig{0%{left:5%;top:25%}16.66%{left:20%;top:75%}33.33%{left:35%;top:25%}50%{left:50%;top:75%}66.66%{left:65%;top:25%}83.33%{left:80%;top:75%}100%{left:95%;top:25%}}
+    /* sketching: a pencil traces a heart on a tilted page */
+    .sc-sketch .sc-plane{left:12%;right:12%;top:12%;bottom:12%;transform-origin:50% 50%;transform:rotateX(32deg) rotateZ(-6deg)}
+    .draw{left:50%;top:50%;width:100px;height:80px;margin:-40px 0 0 -50px}
+    .pencil{font-size:22px;offset-path:path('M50 72 C8 44 14 6 50 26 C86 6 92 44 50 72');offset-rotate:0deg;offset-anchor:12% 88%;animation:trace 1.4s ease-in-out both}
+    @keyframes trace{from{offset-distance:0%}to{offset-distance:100%}}
+    /* piano: a keyboard in perspective plays a little tune */
+    .kb{left:7%;right:7%;bottom:12%;height:48%;transform-origin:50% 100%;transform:rotateX(46deg);transform-style:preserve-3d;display:flex;gap:2px;position:absolute}
+    .kb .wk{position:relative;flex:1;height:100%;background:linear-gradient(#fff,#f6eef2);border-radius:0 0 4px 4px;box-shadow:0 4px 0 #e5cfd8;transform-origin:50% 0}
+    .kb .bk{width:8%;height:58%;top:0;background:#3b2232;border-radius:0 0 3px 3px;translate:-50% 0;transform:translateZ(3px)}
+    .note{left:var(--x);bottom:44%;font-size:20px;color:var(--berry);animation:rise 1.2s var(--d) ease-out both}
+    /* ukulele: strings on a fretboard get strummed */
+    .neck{left:4%;right:4%;top:28%;height:44%;border-radius:6px;background:repeating-linear-gradient(90deg,transparent 0 17%,#ecd8b0 17% 18.5%),linear-gradient(#c98f6b,#a3694a);transform:rotateX(52deg) rotateZ(-12deg);box-shadow:0 12px 16px -10px rgba(59,34,50,.5)}
+    .str{left:0;right:0;height:1.5px;top:var(--y);background:#fff8ea;animation:vib 1.5s var(--d) both}
+    @keyframes vib{0%,45%,100%{transform:none;filter:none}5%,15%,25%,50%,60%,70%{transform:translateY(-2px) scaleY(2.6);filter:blur(.4px)}10%,20%,30%,55%,65%,75%{transform:translateY(2px) scaleY(2.6);filter:blur(.4px)}}
+    /* swimming: a lap across a pool in perspective */
+    .pool{left:-12%;right:-12%;top:30%;bottom:-25%;transform-origin:50% 0;transform:rotateX(60deg);background:repeating-linear-gradient(90deg,transparent 0 23%,rgba(255,255,255,.75) 23% 24.2%),linear-gradient(#a6dcf2,#5fb2e0);overflow:hidden}
+    .pool:after{content:'';position:absolute;inset:-20%;background:repeating-radial-gradient(circle at 30% 40%,rgba(255,255,255,.28) 0 6px,transparent 6px 16px);animation:shimmer 2s linear infinite}
+    @keyframes shimmer{to{transform:translate(16px,10px)}}
+    .rip{width:30px;height:30px;margin:-15px;border:2px solid rgba(255,255,255,.9);border-radius:50%;left:var(--x);top:45%;scale:0;animation:rip 1s var(--d) ease-out both}
+    @keyframes rip{0%{scale:.2;opacity:1}100%{scale:2.6;opacity:0}}
+    .swimmer{font-size:26px;top:34%;animation:swim 2.2s ease-in-out both}
+    @keyframes swim{0%{left:84%}25%{translate:0 -3px}50%{translate:0 2px}75%{translate:0 -3px}100%{left:2%}}
+    /* running: the ground scrolls past in perspective */
+    .sky{inset:0 0 45% 0;background:linear-gradient(#fff3f7,#ffe2da)}
+    .ground{left:-40%;right:-40%;top:54%;bottom:-60%;transform-origin:50% 0;transform:rotateX(68deg);background:repeating-linear-gradient(90deg,#f1b8c9 0 18px,#fbd9e5 18px 36px);animation:ground .35s linear infinite}
+    @keyframes ground{to{background-position:36px 0}}
+    .runner{font-size:30px;left:42%;top:30%;animation:bob .3s ease-in-out infinite alternate}
+    @keyframes bob{to{translate:0 -6px}}
+    .gust{height:2px;width:22%;left:66%;top:var(--y);background:#e0628a;border-radius:2px;opacity:0;animation:gust .6s var(--d) ease-out infinite}
+    @keyframes gust{0%{opacity:.7;transform:translateX(0) scaleX(.4)}100%{opacity:0;transform:translateX(30px) scaleX(1)}}
+    /* competitive: a trophy spins up while confetti tumbles in 3D */
+    .trophy{font-size:46px;left:50%;top:50%;margin:-26px 0 0 -26px;animation:trophy 2s cubic-bezier(.2,.8,.3,1) both}
+    @keyframes trophy{0%{transform:translateY(60px) rotateY(0) scale(.3);opacity:0}35%{opacity:1;transform:translateY(-6px) rotateY(540deg) scale(1.15)}100%{transform:translateY(0) rotateY(720deg) scale(1)}}
+    .conf{width:6px;height:10px;left:var(--x);top:-12%;background:var(--c);border-radius:1px;animation:conf var(--t) var(--d) linear both}
+    @keyframes conf{to{top:112%;transform:rotateX(var(--rx)) rotateY(var(--ry)) translateX(var(--sx))}}
+    /* crochet: a yarn ball rolls away, unravelling */
+    .floor{left:-10%;right:-10%;top:48%;bottom:-30%;transform-origin:50% 0;transform:rotateX(62deg);background:radial-gradient(#f3cfdc 1px,transparent 1px) 0 0/10px 10px}
+    .ball{width:36px;height:36px;margin:-18px;top:62%;border-radius:50%;background:radial-gradient(circle at 34% 30%,#ffd0de,#e0628a 58%,#a8375c);animation:roll 1.7s cubic-bezier(.3,.6,.4,1) both}
+    .ball:after{content:'';position:absolute;inset:0;border-radius:50%;background:repeating-linear-gradient(40deg,transparent 0 4px,rgba(255,255,255,.38) 4px 6px)}
+    @keyframes roll{0%{left:16%;rotate:0deg}100%{left:84%;rotate:600deg}}
+    .shadow{width:34px;height:8px;margin-left:-17px;top:74%;border-radius:50%;background:rgba(59,34,50,.18);filter:blur(2px);animation:shroll 1.7s cubic-bezier(.3,.6,.4,1) both}
+    @keyframes shroll{0%{left:16%}100%{left:84%}}
+    /* jewellery: beads orbit a tilted necklace, always facing you */
+    .orbit{left:50%;top:50%;transform-style:preserve-3d}
+    .string{width:104px;height:104px;margin:-52px;border:1.5px solid #c9a26b;border-radius:50%;transform:rotateX(70deg)}
+    .bead{transform-style:preserve-3d}.bead i{width:14px;height:14px;margin:-7px;border-radius:50%;background:radial-gradient(circle at 34% 30%,#fff,var(--c) 48%,var(--c2));scale:0;animation:pop .35s var(--d) cubic-bezier(.3,1.6,.5,1) forwards}
+    @keyframes pop{to{scale:1}}
+    /* next one: a slot-machine reel spins and lands on a sparkle */
+    .reel{left:50%;top:50%;transform-style:preserve-3d;animation:reel 2s cubic-bezier(.15,.75,.25,1) both}
+    @keyframes reel{from{transform:rotateX(0)}to{transform:rotateX(1080deg)}}
+    .reel span{left:-20px;top:-18px;width:40px;height:36px;text-align:center;font-size:28px;line-height:36px;backface-visibility:hidden;transform:rotateX(var(--a)) translateZ(46px)}
+    .slot-win{inset:0;background:linear-gradient(var(--bg) 8%,transparent 38%,transparent 62%,var(--bg) 92%);pointer-events:none}
+    .slot-win:after{content:'';position:absolute;left:18%;right:18%;top:36%;bottom:36%;border-block:1.5px dashed #e8b4c6}
+
+    /* 5 · say hi */
+    footer{background:var(--pink);padding:64px 0 28px}.footer-top{display:flex;align-items:end;justify-content:space-between;gap:20px;padding-bottom:42px}
+    .footer-top h2{margin:12px 0 0;font-size:clamp(34px,5vw,54px);font-weight:800;line-height:1.02;letter-spacing:-.05em}.footer-top h2 em{color:var(--berry)}
+    .contact{white-space:nowrap;background:#fff;border:1px solid #fff;border-radius:8px;padding:13px 16px;font:11px var(--mono)}.contact:hover{background:var(--berry);border-color:var(--berry);color:#fff}
+    .bottom{border-top:1px solid #f0bccd;padding-top:20px;color:var(--muted);font:10px var(--mono)}
+
+    .lightbox{border:0;padding:0;background:none;max-width:min(92vw,720px);overflow:visible}.lightbox::backdrop{background:rgba(59,34,50,.88)}
+    .lightbox img{display:block;max-width:100%;max-height:80vh;margin:auto;border-radius:10px}.lightbox figcaption{color:#fff;justify-content:center;flex-direction:column;align-items:center;gap:4px}.lightbox small{color:#f3d6e0}
+    .lb-btn{position:fixed;border:1px solid rgba(255,255,255,.4);background:var(--berry);color:#fff;width:42px;height:42px;border-radius:50%;font-size:18px;cursor:pointer}.lb-btn:hover{background:#fff;color:var(--berry)}
+    .lb-close{top:18px;right:18px}.lb-prev,.lb-next{top:50%;transform:translateY(-50%)}.lb-prev{left:18px}.lb-next{right:18px}
+
+    @media(max-width:820px){.shelf-wrap{grid-template-columns:1fr}}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;gap:44px;padding:40px 0 60px;min-height:0}.pad-card{rotate:0deg}#pad{height:260px}}
+    @media(max-width:680px){.wrap{width:min(100% - 28px,1000px)}.navlinks a:not(:last-child){display:none}.hero p{font-size:16px}
+      .sticker{width:calc(50% - 10px)}.face{padding:13px}.board{padding:26px 14px;gap:14px}.footer-top{display:block}.footer-top h2{margin-bottom:25px}.lb-prev,.lb-next{top:auto;bottom:18px;transform:none}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}.mark{background-size:100% 100%}}
   </style>
 </head>
 <body>
-  <header class="wrap"><nav><a class="logo" href="#top">elizebeth<i>.</i></a><div class="navlinks"><a href="#little-things">little things</a><a href="#gallery">gallery</a><a href="mailto:elizebethshaji8@gmail.com">say hi ↗</a></div></nav></header>
+  <header class="wrap"><nav><a class="logo" href="#top">elizebeth<i>.</i></a><div class="navlinks"><a href="#make">things I make</a><a href="#shelf">bookshelf</a><a href="#hobbies">hobby log</a><a href="#hi">say hi ↗</a></div></nav></header>
   <main id="top">
-    <section class="wrap hero"><div><div class="eyebrow">A small corner of the internet</div><h1>Hi, I’m <em>Elizebeth.</em></h1><p>I’m a software engineer who likes making things—building software, painting, picking up new hobbies, or just figuring out how something works. Usually found with a new idea, a good book, a creative project, or occasionally looking for somewhere nice to go.</p></div><aside class="hello-card"><div class="eyebrow" style="color:#f3abc0">A few things</div><h2>Curious by default.</h2><p>I love quiet creative time, learning something from scratch, and the particular satisfaction of a problem finally making sense.</p><div class="little-list">painting &nbsp;·&nbsp; reading<br>new hobbies &nbsp;·&nbsp; open skies<br>ideas with no obvious use (yet)</div></aside></section>
-    <section class="section wrap"><div class="eyebrow">A little about me</div><h2>Equal parts logic<br>& <em style="font-family:'Playfair Display';color:var(--rose)">wonder.</em></h2><div class="about"><div class="note">“A curious mind is never really bored.”</div><div class="about-copy"><p>I work in software, and I genuinely enjoy it—the satisfaction of taking something complicated apart, finding the part that doesn't make sense, and eventually making it work.</br>
 
-Outside of work, I tend to move between books, painting, music, little creative projects, and an ever-growing list of things I'd like to try. I like going out and finding new places too, but I'm equally happy spending a whole day at home with a book, a game, or something I'm making.</br>
+    <section class="wrap hero">
+      <div>
+        <div class="eyebrow">Engineer · painter · professional hobby-starter</div>
+        <h1>Hi, I’m <em>Elizebeth.</em></h1>
+        <p>I’m a software engineer who likes making things—building software, painting, picking up new hobbies, or just figuring out how something works. Usually found with a new idea, a good book, a creative project, or occasionally looking for somewhere nice to go.</p>
+      </div>
+      <aside class="pad-card" aria-label="A little paint pad">
+        <div class="pad-head"><span class="eyebrow">play with paint</span><button class="wash" type="button" id="wash">oops, start over</button></div>
+        <canvas id="pad" aria-label="Drag here to paint watercolour blobs"></canvas>
+        <div class="swatches" id="swatches" role="group" aria-label="Paint colour"><span>go on, nobody’s grading this ✿</span></div>
+      </aside>
+    </section>
 
-<strong>I don't think everything has to become a goal or an achievement. Some things are just interesting enough to follow.</strong>
-</p></div></div></section>
-    <section id="little-things" class="section interests"><div class="wrap"><div class="eyebrow">The little things</div><h2>Things I keep coming back to.</h2><div class="interest-grid"><article class="interest"><span>🎨</span><h3>Painting</h3><p>Playing with colour, texture, and whatever catches my eye.</p></article><article class="interest"><span>📚</span><h3>Reading</h3><p>Getting wonderfully lost in a good story or a new subject.</p></article><article class="interest"><span>⛰</span><h3>Little outings</h3><p>Quiet places, little solo outings, walks when I feel like getting out, and finding somewhere nice to sit for a while.</p></article><article class="interest"><span>✦</span><h3>Trying things</h3><p>New hobbies, new skills, and delightfully niche interests.</p></article></div></div></section>
-    <section id="gallery" class="section wrap"><div class="gallery-head"><div><div class="eyebrow">Artwork</div><h2>A few things<br>I’ve painted.</h2></div><p>A small gallery of colour, texture, and things I felt like making.</p></div><div class="gallery">
-      <!-- Add your image files to an images folder, then replace each src below. Example: images/artwork-01.jpg -->
-      <figure class="slot"><img src="resource\WhatsApp Image 2026-09-23 at 00.21.39 (1).jpeg" alt="Artwork one" onerror="this.style.display='none'"></figure>
-      <figure class="slot"><img src="resource\WhatsApp Image 2026-09-23 at 00.21.39.jpeg" alt="Artwork two" onerror="this.style.display='none'"></figure>
-      <figure class="slot"><img src="resource\WhatsApp Image 2026-09-23 at 00.21.40 (1).jpeg" alt="Artwork three" onerror="this.style.display='none'"></figure>
-      <figure class="slot"><img src="resource\WhatsApp Image 2026-09-23 at 00.21.40.jpeg" alt="Artwork four" onerror="this.style.display='none'"></figure>
-      <figure class="slot"><img src="resource\WhatsApp Image 2026-09-23 at 00.24.52.jpeg" alt="Artwork five" onerror="this.style.display='none'"></figure>
-    </div></section>
-    <section class="section wrap" style="padding-top:10px"><div class="eyebrow">Lately</div><h2>What I’m making room for.</h2><div class="now"><div class="now-box"><div class="eyebrow">Currently enjoying</div><h3>Slow creative projects</h3><p>More painting, more reading, and making space to be a beginner at something new.</p></div><div class="now-box"><div class="eyebrow" style="color:#f5aec2">Tiny belief</div><h3>Keep exploring.</h3><p>Not every interest needs to become an achievement. Some are just lovely to follow.</p></div></div></section>
+    <section id="make" class="section wrap reveal">
+      <div class="eyebrow">Things I make</div>
+      <h2>Things I painted <span class="mark">instead of scrolling.</span></h2>
+      <p class="lede">Mostly watercolour, mostly in a sketchbook, always with a brush in the photo because I forget to move it.</p>
+      <div class="tech"><p>Looking for my <b>technical side?</b> That lives on GitHub and LinkedIn.</p><div class="links"><a href="https://github.com/elizebeth8" target="_blank" rel="noopener">github ↗</a><a href="https://www.linkedin.com/in/elizebeth-shaji-84a06a277" target="_blank" rel="noopener">linkedin ↗</a></div></div>
+      <div class="gallery">
+        <figure class="piece"><button type="button" aria-label="View Overgrown larger"><img src="resource/painting-1.jpeg" width="720" height="1097" loading="lazy" alt="A woman in a blue dress cradles a skeleton overgrown with green ivy, against soft green watercolour washes."></button><figcaption>Overgrown <small>Watercolour</small></figcaption></figure>
+        <figure class="piece"><button type="button" aria-label="View Coneflowers larger"><img src="resource/painting-2.jpeg" width="560" height="770" loading="lazy" alt="Two loose pink coneflowers with orange centres and green leaves, painted on a small paper gift tag."></button><figcaption>Coneflowers <small>Watercolour on a gift tag</small></figcaption></figure>
+        <figure class="piece"><button type="button" aria-label="View Green eye larger"><img src="resource/painting-3.jpeg" width="530" height="770" loading="lazy" alt="A close-up of a face with one vivid green eye and red lips, half covered by a hand."></button><figcaption>Green eye <small>Watercolour</small></figcaption></figure>
+        <figure class="piece"><button type="button" aria-label="View The corner shop larger"><img src="resource/painting-4.jpeg" width="648" height="995" loading="lazy" alt="An ink and wash sketch of a small green shop with a tiled awning, shelves of jars and potted plants on a quiet street."></button><figcaption>The corner shop <small>Ink &amp; watercolour</small></figcaption></figure>
+        <figure class="piece"><button type="button" aria-label="View Powder &amp; Jinx larger"><img src="resource/painting-5.jpeg" width="680" height="1110" loading="lazy" alt="Fan art of Powder as a tearful child and Jinx with long blue braids from Arcane, with the words Pow-Pow and Jinx."></button><figcaption>Powder &amp; Jinx <small>Watercolour · Arcane fan art</small></figcaption></figure>
+      </div>
+      <a class="insta" href="https://www.instagram.com/lilelilouli/" target="_blank" rel="noopener"><span>More paintings (and the messy in-progress ones) on Instagram</span><b>@lilelilouli ↗</b></a>
+    </section>
+
+    <section id="shelf" class="section shelf-sec">
+      <div class="wrap reveal">
+        <div class="eyebrow">Bookshelf</div>
+        <h2>Books that ruined <span class="mark">my sleep schedule.</span></h2>
+        <p class="lede">Every Dan Brown (Robert Langdon and I are basically pen pals now), a stack of Sidney Sheldons, and one Piranesi that I still think about in the shower.</p>
+        <div class="shelf-wrap">
+          <div class="shelf" id="books"></div>
+          <div class="note-card" aria-live="polite"><div class="eyebrow" id="bkTag">pick a spine</div><h3 id="bkTitle">←</h3><div class="by" id="bkBy"></div><p id="bkLine">Pull one out. Gently. They’ve been through a lot.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section wrap reveal">
+      <div class="eyebrow">Hobby log</div>
+      <h2>Things I’ve tried <span class="mark">(so far).</span></h2>
+      <p class="lede">Not everything has to become a goal. Some things are just interesting enough to buy supplies for. Drag them around or give one a poke.</p>
+      <div class="legend"><span style="background:var(--s-paint)">things with paint</span><span style="background:var(--s-sound)">things with sound</span><span style="background:var(--s-sweat)">things that make me sweat</span><span style="background:var(--s-tiny)">things with tiny pieces</span></div>
+      <div class="board" id="board">
+        <div data-fx="watercolour" class="sticker paint"><b>💧</b><h3>Watercolour</h3><p>my favourite. almost everything in the gallery is watercolour</p></div>
+        <div data-fx="acrylic" class="sticker paint"><b>🖌️</b><h3>Acrylics</h3><p>I like that I can just paint over my mistakes</p></div>
+        <div data-fx="pastel" class="sticker paint"><b>🖍️</b><h3>Oil pastels</h3><p>messy but so fun to blend with your fingers</p></div>
+        <div data-fx="sketch" class="sticker paint"><b>✏️</b><h3>Sketching</h3><p>mostly doodling whatever’s in front of me</p></div>
+        <div data-fx="piano" class="sticker music"><b>🎹</b><h3>Piano</h3><p>I know how a lot of songs start. the endings, not so much</p></div>
+        <div data-fx="ukulele" class="sticker music"><b>🎸</b><h3>Ukulele</h3><p>still a beginner. my fingers hurt and my patience is running out</p></div>
+        <div data-fx="swim" class="sticker move"><b>🏊</b><h3>Swimming</h3><p>no phone, no notifications, just water</p></div>
+        <div data-fx="run" class="sticker move"><b>🏃</b><h3>Running</h3><p>I’m slow, but I still go</p></div>
+        <div data-fx="games" class="sticker move"><b>🏆</b><h3>Outdoor games</h3><p>I can be very competitive</p></div>
+        <div data-fx="crochet" class="sticker hands"><b>🧶</b><h3>Crochet</h3><p>started a scarf, ended up with a coaster</p></div>
+        <div data-fx="jewel" class="sticker hands"><b>📿</b><h3>Jewellery making</h3><p>there are beads on the table, on the floor, and somehow in my bag</p></div>
+        <div data-fx="next" class="sticker next"><b>❓</b><h3>Next one</h3><p>no idea yet, but something’s coming</p></div>
+      </div>
+    </section>
   </main>
-  <footer><div class="wrap"><div class="footer-top"><div><div class="eyebrow" style="color:#f4acc1">Say hello</div><h2>Let’s share a<br><em>good idea.</em></h2></div><a class="contact" href="mailto:elizebethshaji8@gmail.com">elizebethshaji8@gmail.com ↗</a></div><div class="bottom">© 2026 Elizebeth Shaji · Made with curiosity & soft pinks.</div></div></footer>
+
+  <footer id="hi"><div class="wrap"><div class="footer-top"><div><div class="eyebrow">Say hi</div><h2>Got a book, a bug,<br>or a <em>new hobby</em> for me?</h2></div><a class="contact" href="mailto:elizebethshaji8@gmail.com">elizebethshaji8@gmail.com ↗</a></div><div class="bottom">© 2026 Elizebeth Shaji · Made with curiosity &amp; soft pinks.</div></div></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Painting viewer"><figure style="margin:0"><img src="" alt=""><figcaption></figcaption></figure><button class="lb-btn lb-close" type="button" aria-label="Close">✕</button><button class="lb-btn lb-prev" type="button" aria-label="Previous painting">←</button><button class="lb-btn lb-next" type="button" aria-label="Next painting">→</button></dialog>
+
+  <script>
+    // paint pad: soft, layered stamps blended with multiply read as watercolour
+    const pad=document.getElementById('pad'),ctx=pad.getContext('2d'),swatches=document.getElementById('swatches');
+    const paints=[['rose','#e0628a'],['blush','#f49ab8'],['lilac','#b48fd6'],['sky','#79aee0'],['sage','#86c29a'],['peach','#f4a27a']];
+    let colour=paints[0][1],last=null;
+    paints.forEach(([name,c],i)=>{const b=document.createElement('button');b.type='button';b.style.setProperty('--c',c);b.setAttribute('aria-label',name);b.setAttribute('aria-pressed',i===0);
+      b.addEventListener('click',()=>{colour=c;swatches.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b))});swatches.insertBefore(b,swatches.lastElementChild)});
+    const rgb=h=>[1,3,5].map(i=>parseInt(h.slice(i,i+2),16)).join(',');
+    function paper(){ctx.save();ctx.globalCompositeOperation='source-over';ctx.fillStyle='#fffdfb';ctx.fillRect(0,0,pad.width,pad.height);
+      for(let i=0;i<pad.width*pad.height/90;i++){ctx.fillStyle=`rgba(180,140,150,${Math.random()*.06})`;ctx.fillRect(Math.random()*pad.width,Math.random()*pad.height,1.5,1.5)}ctx.restore()}
+    // watercolour = many faint, slightly different copies of a wobbly polygon stacked on each other
+    const gauss=()=>(Math.random()+Math.random()+Math.random()-1.5)/1.5;
+    function deform(pts,depth,v){for(let d=0;d<depth;d++){const out=[];pts.forEach((a,i)=>{const b=pts[(i+1)%pts.length],len=Math.hypot(b[0]-a[0],b[1]-a[1]);out.push(a,[(a[0]+b[0])/2+gauss()*v*len,(a[1]+b[1])/2+gauss()*v*len])});pts=out}return pts}
+    function blob(x,y,r,c,layers,alpha){
+      let base=[];for(let i=0;i<9;i++){const a=i/9*Math.PI*2,rr=r*(.8+Math.random()*.4);base.push([x+Math.cos(a)*rr,y+Math.sin(a)*rr])}
+      base=deform(base,2,.3);ctx.fillStyle=`rgba(${rgb(c)},${alpha})`;
+      for(let l=0;l<layers;l++){const p=deform(base,3,.32);ctx.beginPath();p.forEach(([px,py],i)=>i?ctx.lineTo(px,py):ctx.moveTo(px,py));ctx.fill()}}
+    const bloom=(x,y,c,r=30)=>blob(x,y,r*devicePixelRatio,c,22,.028);
+    function size(){const s=devicePixelRatio,old=pad.width?ctx.getImageData(0,0,pad.width,pad.height):null;
+      if(old&&pad.width===Math.round(pad.clientWidth*s))return;
+      pad.width=Math.round(pad.clientWidth*s);pad.height=Math.round(pad.clientHeight*s);ctx.globalCompositeOperation='source-over';paper();if(old)ctx.putImageData(old,0,0);ctx.globalCompositeOperation='multiply'}
+    size();addEventListener('resize',size);
+    // a few blobs so the paper doesn't start empty
+    [[.22,.32,'#f49ab8',48],[.32,.44,'#e0628a',30],[.78,.66,'#b48fd6',40],[.66,.76,'#f49ab8',26]].forEach(([fx,fy,c,r])=>bloom(pad.width*fx,pad.height*fy,c,r));
+    const at=e=>[e.offsetX*pad.width/pad.clientWidth,e.offsetY*pad.height/pad.clientHeight];
+    pad.addEventListener('pointerdown',e=>{pad.setPointerCapture(e.pointerId);last=at(e);bloom(...last,colour,28)});
+    // stamp along the stroke every few px; faster strokes get thinner, like a real brush
+    pad.addEventListener('pointermove',e=>{if(!last)return;const p=at(e),s=devicePixelRatio,d=Math.hypot(p[0]-last[0],p[1]-last[1]);if(d<10*s)return;
+      const steps=Math.ceil(d/(12*s)),r=Math.max(18,30-d/(4*s))*s;
+      for(let i=1;i<=steps;i++)blob(last[0]+(p[0]-last[0])*i/steps,last[1]+(p[1]-last[1])*i/steps,r,colour,6,.035);last=p});
+    const lift=()=>last=null;pad.addEventListener('pointerup',lift);pad.addEventListener('pointercancel',lift);
+    document.getElementById('wash').addEventListener('click',()=>{ctx.globalCompositeOperation='source-over';paper();ctx.globalCompositeOperation='multiply'});
+
+    // painting lightbox
+    const pieces=[...document.querySelectorAll('.piece')],lb=document.getElementById('lightbox'),lbImg=lb.querySelector('img'),lbCap=lb.querySelector('figcaption');let current=0;
+    function show(i){current=(i+pieces.length)%pieces.length;const img=pieces[current].querySelector('img');lbImg.src=img.src;lbImg.alt=img.alt;lbCap.innerHTML=pieces[current].querySelector('figcaption').innerHTML}
+    pieces.forEach((p,i)=>p.querySelector('button').addEventListener('click',()=>{show(i);lb.showModal()}));
+    lb.querySelector('.lb-close').addEventListener('click',()=>lb.close());
+    lb.querySelector('.lb-prev').addEventListener('click',()=>show(current-1));
+    lb.querySelector('.lb-next').addEventListener('click',()=>show(current+1));
+    lb.addEventListener('click',e=>{if(e.target===lb)lb.close()});
+    document.addEventListener('keydown',e=>{if(!lb.open)return;if(e.key==='ArrowRight')show(current+1);if(e.key==='ArrowLeft')show(current-1)});
+
+    // bookshelf
+    const books=[
+      ['Digital Fortress','Dan Brown','#3d5a80',212,'The NSA has a code it can’t crack. I had a bedtime I didn’t keep. Both of us lost.'],
+      ['Angels & Demons','Dan Brown','#9b2335',236,'Robert Langdon sprints across Rome on zero sleep. I read it on zero sleep. We bonded.'],
+      ['Deception Point','Dan Brown','#4a6c6f',206,'NASA finds something under the Arctic ice and immediately regrets it. Nobody in this book has a calm day.'],
+      ['The Da Vinci Code','Dan Brown','#7a4b2a',248,'A murder in the Louvre and a trail of riddles. I’ve squinted at every painting for hidden messages ever since, including my own.'],
+      ['The Lost Symbol','Dan Brown','#2f2a4a',226,'Freemasons, Washington D.C., and further proof that Langdon cannot have one normal day.'],
+      ['Inferno','Dan Brown','#b5502a',218,'Langdon wakes up in Florence with no memory of the last two days. Relatable, minus the Florence.'],
+      ['Origin','Dan Brown','#1f6f78',230,'Where do we come from? Where are we going? An AI called Winston has opinions. As a software engineer, so did I.'],
+      ['The Secret of Secrets','Dan Brown','#5c3d6e',240,'Prague, the mystery of consciousness, and Langdon once again being the wrong man in the right ancient building.'],
+      ['Sidney Sheldon','a few of them','#d9a441',200,'Glamour, revenge and a twist every chapter. His characters plot for thirty years. I can’t plan a weekend.','#3b2232',1],
+      ['Piranesi','Susanna Clarke','#e8e1cf',252,'A man lives in an endless house of statues and tides and is weirdly content about it. Honestly? Goals.','#3b2232',1],
+    ];
+    const shelf=document.getElementById('books'),bkTag=document.getElementById('bkTag'),bkTitle=document.getElementById('bkTitle'),bkBy=document.getElementById('bkBy'),bkLine=document.getElementById('bkLine');
+    books.forEach(([title,by,c,h,line,t,wide],i)=>{
+      const b=document.createElement('button');b.type='button';b.className='spine'+(wide?' wide':'');b.textContent=title;b.setAttribute('aria-pressed','false');
+      b.style.cssText=`--c:${c};--h:${h}px;${t?`--t:${t}`:''}`;
+      b.addEventListener('click',()=>{shelf.querySelectorAll('.spine').forEach(x=>x.setAttribute('aria-pressed',x===b));bkTag.textContent=`book ${i+1} of ${books.length}`;bkTitle.textContent=title;bkBy.textContent=by;bkLine.textContent=line});
+      shelf.appendChild(b);
+    });
+
+    // hobby board: tilt, drag, and tap to flip a sticker over to its little 3D scene
+    const board=document.getElementById('board'),stickers=[...board.querySelectorAll('.sticker')];
+    const calm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    stickers.forEach(s=>{
+      s.style.setProperty('--r',(Math.random()*8-4).toFixed(1)+'deg');
+      const front=document.createElement('div'),back=document.createElement('div'),flipper=document.createElement('div');
+      front.className='face front';while(s.firstChild)front.appendChild(s.firstChild);
+      back.className='face back';back.innerHTML='<div class="scene"></div>';flipper.className='flipper';flipper.append(front,back);s.appendChild(flipper);
+    });
+    const rnd=(a,b)=>a+Math.random()*(b-a),times=(n,f)=>Array.from({length:n},(_,i)=>f(i)).join('');
+    const pick=a=>a[Math.floor(Math.random()*a.length)];
+    const scenes={
+      watercolour:()=>{const d=[[24,'224,98,138',62,0],[54,'180,143,214',58,.35],[76,'121,174,224',66,.7]];
+        return `<div class="sc-plane">${d.map(([x,c,y,t])=>`<i class="bloom" style="--x:${x}%;--y:${(y-30)*1.6}%;--c:${c};--d:${t+.45}s"></i>`).join('')}</div>`+
+          d.map(([x,c,y,t])=>`<i class="drop" style="--x:${x}%;--y:${y}%;--c:rgb(${c});--d:${t}s"></i>`).join('')},
+      acrylic:()=>`<div class="easel"><div class="canvas">${[['#e0628a',14,-3],['#b48fd6',40,2],['#f4a27a',66,-2]].map(([c,y,r],i)=>`<i class="strk" style="--c:${c};--y:${y}%;--rot:${r}deg;--d:${.25+i*.4}s"></i>`).join('')}</div><i class="leg l"></i><i class="leg r"></i></div>`,
+      pastel:()=>`<div class="sc-plane"><svg viewBox="0 0 100 60" preserveAspectRatio="none"><path class="ink" pathLength="1" d="M5 15 L20 45 L35 15 L50 45 L65 15 L80 45 L95 15" stroke="#f4a27a" stroke-width="5" vector-effect="non-scaling-stroke" style="--t:1.3s;--d:.2s"/><path class="ink" pathLength="1" d="M5 24 L20 54 L35 24 L50 54 L65 24 L80 54 L95 24" stroke="#f49ab8" stroke-width="4" vector-effect="non-scaling-stroke" opacity=".8" style="--t:1.1s;--d:1s"/></svg><i class="stick"></i></div>`,
+      sketch:()=>`<div class="sc-plane"><div class="draw"><svg viewBox="0 0 100 80"><path class="ink" pathLength="1" d="M50 72 C8 44 14 6 50 26 C86 6 92 44 50 72" stroke="#3b2232" stroke-width="2.2" style="--t:1.4s"/><path class="ink" pathLength="1" d="M52 70 C11 45 15 9 49 28 C84 8 90 42 51 71" stroke="#3b2232" stroke-width="1.2" opacity=".45" style="--t:1.2s;--d:1.1s"/></svg><span class="pencil">✏️</span></div></div>`,
+      piano:()=>`<div class="kb">${times(7,i=>`<div class="wk"></div>`)}${[14.3,28.6,57.1,71.4,85.7].map(x=>`<i class="bk" style="left:${x}%"></i>`).join('')}</div>`+
+        [0,2,4,2,4,6,5].map((k,i)=>`<span class="note" style="--x:${10+k*12}%;--d:${i*.22}s;--sx:${rnd(-14,14)}px;--rt:${rnd(-30,30)}deg">${pick(['♪','♫','♬','♩'])}</span>`).join(''),
+      ukulele:()=>`<div class="neck">${times(4,i=>`<i class="str" style="--y:${20+i*20}%;--d:${i*.06}s"></i>`)}</div>`+times(3,i=>`<span class="note" style="--x:${55+i*12}%;--d:${.3+i*.25}s;--sx:${rnd(0,20)}px">♪</span>`),
+      swim:()=>`<div class="pool">${times(5,i=>`<i class="rip" style="--x:${80-i*17}%;--d:${i*.42}s"></i>`)}</div><span class="swimmer">🏊</span>`,
+      run:()=>`<i class="sky"></i><i class="ground"></i>${times(3,i=>`<i class="gust" style="--y:${36+i*9}%;--d:${i*.18}s"></i>`)}<span class="runner">🏃</span>`,
+      games:()=>times(18,()=>`<i class="conf" style="--x:${rnd(4,94)}%;--c:${pick(['#e0628a','#f49ab8','#b48fd6','#79aee0','#f4a27a','#f6d38b'])};--t:${rnd(1.3,2.1)}s;--d:${rnd(.2,.8)}s;--rx:${rnd(360,1080)}deg;--ry:${rnd(360,1080)}deg;--sx:${rnd(-20,20)}px"></i>`)+`<span class="trophy">🏆</span>`,
+      crochet:()=>`<i class="floor"></i><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path class="ink" pathLength="1" d="M16 70 Q30 86 44 72 T70 72 T84 70" stroke="#e0628a" stroke-width="2.5" vector-effect="non-scaling-stroke" style="--t:1.7s"/></svg><i class="shadow"></i><i class="ball"></i>`,
+      jewel:()=>`<div class="orbit"><i class="string"></i>${times(10,i=>`<div class="bead" data-a="${i*36}"><i style="--c:${['#e0628a','#f49ab8','#b48fd6','#79aee0','#f4a27a'][i%5]};--c2:${['#a8375c','#d06b8e','#7f5ca8','#4f83b8','#c9744d'][i%5]};--d:${i*.08}s"></i></div>`)}</div>`,
+      next:()=>{const pool=['🛼','🧁','📷','🪴','🎻','🧗','🪡','🎳','🧩'];
+        return `<div class="reel"><span style="--a:0deg">✨</span>${pool.map((e,i)=>`<span style="--a:${(i+1)*36}deg">${e}</span>`).join('')}</div><i class="slot-win"></i>`},
+    };
+    // beads orbit individually and counter-rotate, so they stay round instead of flattening with the tilt
+    const orbitBeads=sc=>sc.querySelectorAll('.bead').forEach(b=>{const a=+b.dataset.a;
+      b.animate([{transform:`rotateX(70deg) rotateZ(${a}deg) translateY(-52px) rotateZ(${-a}deg) rotateX(-70deg)`},{transform:`rotateX(70deg) rotateZ(${a+360}deg) translateY(-52px) rotateZ(${-a-360}deg) rotateX(-70deg)`}],{duration:2600,easing:'cubic-bezier(.4,0,.3,1)',fill:'both'})});
+    const pressKeys=sc=>{const keys=sc.querySelectorAll('.wk');[0,2,4,2,4,6,5].forEach((k,i)=>keys[k].animate([{transform:'none'},{transform:'rotateX(-14deg)',background:'#fcd3e1',boxShadow:'0 1px 0 #e5cfd8'},{transform:'none'}],{duration:220,delay:i*220}))};
+    function pop(s){
+      if(calm||s.dataset.busy)return;s.dataset.busy=1;
+      const sc=s.querySelector('.scene'),k=s.dataset.fx;
+      s.classList.add('flipped');
+      setTimeout(()=>{sc.className='scene sc-'+k;sc.innerHTML=scenes[k]();if(k==='jewel')orbitBeads(sc);if(k==='piano')pressKeys(sc)},280);
+      setTimeout(()=>s.classList.remove('flipped'),3100);
+      setTimeout(()=>{sc.innerHTML='';delete s.dataset.busy},3900);
+    }
+    stickers.forEach(s=>{
+      let sx,sy,ox,oy,box,moved;
+      s.addEventListener('pointerdown',e=>{s.setPointerCapture(e.pointerId);s.classList.add('dragging');sx=e.clientX;sy=e.clientY;moved=false;ox=parseFloat(s.style.getPropertyValue('--dx'))||0;oy=parseFloat(s.style.getPropertyValue('--dy'))||0;const r=s.getBoundingClientRect(),br=board.getBoundingClientRect();box={l:br.left-r.left,r:br.right-r.right,t:br.top-r.top,b:br.bottom-r.bottom}});
+      s.addEventListener('pointermove',e=>{if(!s.classList.contains('dragging'))return;if(Math.hypot(e.clientX-sx,e.clientY-sy)>5)moved=true;const dx=Math.min(Math.max(e.clientX-sx,box.l),box.r),dy=Math.min(Math.max(e.clientY-sy,box.t),box.b);s.style.setProperty('--dx',ox+dx+'px');s.style.setProperty('--dy',oy+dy+'px')});
+      s.addEventListener('pointerup',()=>{s.classList.remove('dragging');if(!moved)pop(s)});
+      s.addEventListener('pointercancel',()=>s.classList.remove('dragging'));
+    });
+
+    // fade sections in and draw the highlights as they scroll into view
+    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+    console.log('%chi, fellow dev 👋','font:700 16px sans-serif;color:#e0628a','\nPoking around? The code is on GitHub: https://github.com/elizebeth8');
+  </script>
 </body>
 </html>
